@@ -1,0 +1,19 @@
+.root-footer-page {
+    padding: 0 20px;
+}
+
+.start-button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 82px;
+}
+
+.media-partners {
+    cursor: pointer;
+}
+
+.partners-wrapper {
+    margin-top: 32px;
+    margin-bottom: 90px;
+}

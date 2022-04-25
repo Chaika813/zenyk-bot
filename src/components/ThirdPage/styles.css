@@ -1,0 +1,46 @@
+.root-question-page {
+    width: 100%;
+    background-color: #242A31;
+    padding: 30px 20px 20px
+}
+
+.question-header {
+    text-align: center;
+}
+
+.accordion-item div {
+    background-color: #242A31 !important;
+    color: white;
+}
+
+.accordion-item .accordion-collapse-area {
+    padding: 0;
+    cursor: pointer;
+}
+
+.accordion-item {
+    background-color: #242A31;
+    margin-bottom: 10px;
+}
+
+.question-block-header {
+    text-align: center;
+}
+
+.question-title {
+    text-transform: none;
+}
+
+.answer-text {
+    font-size: 14px;
+}
+
+.answer-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.small-bullet-item {
+    margin-top: 5px;
+}

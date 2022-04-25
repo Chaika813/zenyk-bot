@@ -1,0 +1,12 @@
+.btn-yellow {
+    background-color: #E8E013;
+    min-height: 40px;
+    min-width: 260px;
+    border-radius: 0;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.2em;
+    color: #242A31;
+    text-transform: uppercase
+}

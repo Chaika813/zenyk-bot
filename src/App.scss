@@ -1,0 +1,91 @@
+.App-logo {
+  padding: 35px;
+  position: absolute;
+  top: 0;
+}
+
+.first-page-bg-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 75px;
+}
+
+.first-page-message {
+  margin-bottom: 69px;
+}
+
+.container {
+  padding: 0;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  margin: -70px 34px 59px 51px;
+}
+
+@media (min-width: 992px) {
+  .title-container {
+    margin: -170px 34px 59px 51px;
+  }
+}
+
+.read-more-button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.answer-label {
+  color: #E8E013;
+  size: 12px;
+}
+
+.accordion-item {
+  border-bottom: 1px solid;
+  color: #3A4B61C4;
+}
+
+.accordion-collapse-area {
+  .question-title {
+    color: #E8E013;
+  }
+
+  .answer-label {
+    color: white;
+
+    &:after {
+      content: " -";
+    }
+  }
+}
+
+.accordion-collapse-area {
+  &.collapsed {
+    .question-title {
+      color: white;
+    }
+
+    .answer-label {
+      color: #E8E013;
+
+      &:after {
+        content: "+";
+      }
+    }
+  }
+}
+
+.answer-label {
+  letter-spacing: 0.2em;
+  font-size: 12px;
+  line-height: 14.8px;
+}
+
+.question-title {
+  line-height: 19.5px;
+}
+
+.answer-text {
+  font-size: 14px;
+  line-height: 20px;
+}
